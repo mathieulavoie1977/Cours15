@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="TP4" ID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" ShortID="50075509">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+							<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ALT_Impro" ID="{76124923-8B17-4646-A2E1-87E4A7BA6A02}" ShortID="683653380">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A745707F-60FC-4023-A2AD-4D5D7C2C8F1D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Guit_ImproAlt" ID="{7828DE93-49E8-4A2C-B88F-A62EE7470E5F}" ShortID="682808470">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Guit_ImproAlt_1" ID="{70166E9F-0541-4761-854A-FE6F737A2451}" ShortID="744435544" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_1" ID="{4F4C6D0D-4010-4D27-88C1-32723464B182}" ShortID="1033300765">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_1" ID="{4F4C6D0D-4010-4D27-88C1-32723464B182}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_2" ID="{8A717866-8AD2-48C0-94DA-304CADF2C96E}" ShortID="255759098" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_2" ID="{D0B186F2-303B-40FC-924B-840039FEEC42}" ShortID="953592901">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_2" ID="{D0B186F2-303B-40FC-924B-840039FEEC42}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_3" ID="{A5A303C3-B389-4FAE-A3B6-73FF96FA487C}" ShortID="435906283" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_3" ID="{C9D12553-5EA9-4B98-A7C7-AE232F988450}" ShortID="929762337">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_3" ID="{C9D12553-5EA9-4B98-A7C7-AE232F988450}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_4" ID="{FD2900C2-4777-4DB0-A341-C9DA2B584B71}" ShortID="682707701" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_4" ID="{FF528A93-745F-4099-A6CC-FF73869629B0}" ShortID="157549474">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_4" ID="{FF528A93-745F-4099-A6CC-FF73869629B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_5" ID="{B402090B-F327-4CB3-BD92-1DA32866DA95}" ShortID="238430192" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_5" ID="{0FAF00EA-E368-46A2-8C67-CAFBB0180487}" ShortID="725038346">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_5" ID="{0FAF00EA-E368-46A2-8C67-CAFBB0180487}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_6" ID="{8D2D1C0F-9391-435E-8257-4CBDBDB801C4}" ShortID="83805173" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_6" ID="{A03F00A5-22BB-4CAF-8B26-AD7E7211A720}" ShortID="886041695">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_6" ID="{A03F00A5-22BB-4CAF-8B26-AD7E7211A720}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_7" ID="{C47FAF31-881E-4A19-8F29-BA3F74F40B69}" ShortID="809919466" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_7" ID="{829463EA-F112-4E9F-BA4E-6E3FBA9FD087}" ShortID="714484857">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_7" ID="{829463EA-F112-4E9F-BA4E-6E3FBA9FD087}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_8" ID="{C0AA93B4-FD20-47E0-978F-61038ADB8931}" ShortID="603889937" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_8" ID="{DE790292-5EBE-4EB8-890F-C1FD78205161}" ShortID="574448791">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_8" ID="{DE790292-5EBE-4EB8-890F-C1FD78205161}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_9" ID="{A6AFA4B2-07E6-4325-9EE4-861790C6751E}" ShortID="828865605" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_9" ID="{137416E3-A3A7-4089-A4C2-70DC4138DF47}" ShortID="611797109">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_9.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_9" ID="{137416E3-A3A7-4089-A4C2-70DC4138DF47}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_10" ID="{9AED17D4-6564-410C-A8E1-4A8F895A6326}" ShortID="536487473" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_10" ID="{9AE3BE6B-4573-409A-AA81-A74C58A30390}" ShortID="299332149">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_10.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_10" ID="{9AE3BE6B-4573-409A-AA81-A74C58A30390}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_ImproAlt_11" ID="{40643ECC-16BC-4DC6-A5E9-B30AC7633D21}" ShortID="233480458" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_ImproAlt_11" ID="{5C430F13-3938-440F-9A31-DD0CB689ECCA}" ShortID="593682515">
+													<Language>SFX</Language>
+													<AudioFile>Guit_ImproAlt_11.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_ImproAlt_11" ID="{5C430F13-3938-440F-9A31-DD0CB689ECCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Sop_Alt" ID="{B844205C-E07A-4F82-B65C-69CB2550B82C}" ShortID="193164397">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Sop_Alt_1" ID="{87F9891F-50B1-4D63-8EE3-C7D8A4E6BE9D}" ShortID="588192090" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_1" ID="{5C3A479D-F250-4387-9D22-46480452286F}" ShortID="993029797">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_1" ID="{5C3A479D-F250-4387-9D22-46480452286F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_2" ID="{E6F435B7-72D2-45E4-8E54-6F06FDB2B0BE}" ShortID="271634528" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_2" ID="{71F2974B-AC76-4628-8925-136691C85CAD}" ShortID="27181425">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_2" ID="{71F2974B-AC76-4628-8925-136691C85CAD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_3" ID="{C82B2590-985D-4E9A-BF6E-FB211778DCF5}" ShortID="638268226" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_3" ID="{1F912B2E-D7CE-4CE8-A0AB-3DEC422CAECB}" ShortID="723507226">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_3" ID="{1F912B2E-D7CE-4CE8-A0AB-3DEC422CAECB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_4" ID="{AC803915-D98D-4E7F-AD14-C2E2D20AFF35}" ShortID="605543707" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_4" ID="{B5A37BAD-D0FE-4DE7-92CD-DC6F9D98EB4A}" ShortID="649843178">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_4" ID="{B5A37BAD-D0FE-4DE7-92CD-DC6F9D98EB4A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_5" ID="{DFE59D6A-576F-4541-9726-EBFA9CE29093}" ShortID="961052724" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_5" ID="{0BC5A72C-6D68-41E5-BC04-7C7C116E5D34}" ShortID="998613262">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_5" ID="{0BC5A72C-6D68-41E5-BC04-7C7C116E5D34}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_6" ID="{EDA73AD4-CFD2-461B-9D8F-78697E8CA8E7}" ShortID="597760092" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_6" ID="{568EF531-A62C-4DA7-85F5-D7658230E035}" ShortID="429363819">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_6" ID="{568EF531-A62C-4DA7-85F5-D7658230E035}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_7" ID="{B5DBBDA4-E6FC-42C9-A907-0908F23CC03B}" ShortID="470652488" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_7" ID="{22DE7D63-BCBA-498A-9B0E-58A325759044}" ShortID="1072518089">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_7" ID="{22DE7D63-BCBA-498A-9B0E-58A325759044}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_8" ID="{A13AC098-0C4F-4C4B-A7E0-9FB15CCD5783}" ShortID="1060155531" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_8" ID="{6F930788-26D7-47CF-A080-2742D22A0568}" ShortID="22301023">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_8" ID="{6F930788-26D7-47CF-A080-2742D22A0568}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sop_Alt_9" ID="{DF082989-3515-453F-85BD-0A5DB74F7308}" ShortID="781449330" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sop_Alt_9" ID="{9992D2BD-0725-4324-8BBB-1C36EC297ADF}" ShortID="325228927">
+													<Language>SFX</Language>
+													<AudioFile>Sop_Alt_9.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sop_Alt_9" ID="{9992D2BD-0725-4324-8BBB-1C36EC297ADF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FluteAlt" ID="{DFC7E955-2EBA-4C16-A2D2-1048E4FC25E6}" ShortID="727445589">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Flute_Alt_1" ID="{8E6D9AB0-886C-47E3-B105-4F98ED46DC26}" ShortID="617787590" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_1" ID="{0C373017-5D6E-49A8-B90C-EABA546A388B}" ShortID="594639052">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_1" ID="{0C373017-5D6E-49A8-B90C-EABA546A388B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_2" ID="{F34E6577-1285-41D1-BB27-E963B90CBDD3}" ShortID="1057484583" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_2" ID="{E3420823-D58E-4CA3-AD8F-8E6F70D9D8AE}" ShortID="203799886">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_2" ID="{E3420823-D58E-4CA3-AD8F-8E6F70D9D8AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_3" ID="{F0498F83-E394-4926-B298-674B5153F094}" ShortID="587938296" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_3" ID="{C06E0BFC-7B0E-4BCC-BEF9-81021F3A76B9}" ShortID="1022599643">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_3" ID="{C06E0BFC-7B0E-4BCC-BEF9-81021F3A76B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_4" ID="{4090EAA5-B4E5-44B5-9DA8-950B7B44E64C}" ShortID="1053433377" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_4" ID="{502F9D53-D107-491D-836B-7CEDE666B5CC}" ShortID="1035723302">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_4" ID="{502F9D53-D107-491D-836B-7CEDE666B5CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_5" ID="{1AEA4272-FC68-490C-B3FF-7EDB01435801}" ShortID="1063250897" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_5" ID="{00F5DFCB-AC74-422A-B392-8A3BA3FEA60A}" ShortID="588243966">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_5" ID="{00F5DFCB-AC74-422A-B392-8A3BA3FEA60A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_6" ID="{E9DF54B5-BF6A-43CC-929C-8066A7D83451}" ShortID="104714848" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_6" ID="{CB6E621A-C596-42A0-85C5-5BB759553FB6}" ShortID="646913646">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_6" ID="{CB6E621A-C596-42A0-85C5-5BB759553FB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_7" ID="{B525A7DE-78B1-423E-9E7F-59E2FE8047B9}" ShortID="481679288" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_7" ID="{0A7B2892-5B06-41E9-BE38-75E5C7DEC62A}" ShortID="106305683">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_7" ID="{0A7B2892-5B06-41E9-BE38-75E5C7DEC62A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_8" ID="{1FFADA4E-C0CA-48BF-B678-42BA6E555C04}" ShortID="1025870574" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_8" ID="{C6985615-B774-480C-A8E0-7C7D726BFB04}" ShortID="78885586">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_8" ID="{C6985615-B774-480C-A8E0-7C7D726BFB04}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flute_Alt_9" ID="{04613DA4-9D78-4926-98BC-27AD46DE2F68}" ShortID="293299927" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Alt_9" ID="{02A34A34-C8BE-41DC-A5CD-4E202C7A6F80}" ShortID="131511724">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Alt_9.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flute_Alt_9" ID="{02A34A34-C8BE-41DC-A5CD-4E202C7A6F80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Guit_ImproAlt" ID="{7828DE93-49E8-4A2C-B88F-A62EE7470E5F}"/>
+								<ItemRef Name="Sop_Alt" ID="{B844205C-E07A-4F82-B65C-69CB2550B82C}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Blues" ID="{652B20D8-1E2F-4729-AD67-AA7952F9F544}" ShortID="656613167">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D4D15F3F-F90E-415C-9B50-8A72C73AE426}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Guitares_Blues" ID="{5BC55132-19C0-43CB-81C4-AB593067A453}" ShortID="514764135">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{06043EFC-A3E2-4F23-8426-BE6A96DBAFFE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Guit_Blues_1" ID="{736F96F2-EE2D-45D1-9F44-B3FDF03164EB}" ShortID="87650245" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_1" ID="{DAD95E03-DB7E-4A63-8B5B-D0A5B1E2A72F}" ShortID="93033235">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_1" ID="{DAD95E03-DB7E-4A63-8B5B-D0A5B1E2A72F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_Blues_2" ID="{C9A8EF6F-09C6-40C7-B3E7-F78B010C3F87}" ShortID="746223196" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_2" ID="{5556659B-1F10-464C-924C-A5FED5CBB415}" ShortID="630671994">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_2" ID="{5556659B-1F10-464C-924C-A5FED5CBB415}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_Blues_3" ID="{5D8012D2-13FE-4D14-B491-D9CABD6EDEC1}" ShortID="709470719" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_3" ID="{7D7FD173-8304-4DE2-AADB-E0310602552B}" ShortID="231437061">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_3" ID="{7D7FD173-8304-4DE2-AADB-E0310602552B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_Blues_4" ID="{F2BED53F-C853-4C03-8E2D-BF27A26B3D93}" ShortID="1005452222" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_4" ID="{54B66E00-36A9-4E22-811C-2200D258D2CF}" ShortID="446293763">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_4" ID="{54B66E00-36A9-4E22-811C-2200D258D2CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_Blues_5" ID="{2502E881-6CEC-46F4-BCB7-7E6D4417EF37}" ShortID="801661743" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_5" ID="{2EE3F1FB-37E9-477D-BD82-B888A3C89BE5}" ShortID="665279539">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_5" ID="{2EE3F1FB-37E9-477D-BD82-B888A3C89BE5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_Blues_6" ID="{9E791D12-49C2-423D-A6F9-1FA459820854}" ShortID="179254707" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_6" ID="{0DB0ED6D-F9A1-49FA-A2D2-44435198370B}" ShortID="474078450">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_6" ID="{0DB0ED6D-F9A1-49FA-A2D2-44435198370B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_Blues_7" ID="{DD4ACDF0-E651-4336-8872-61938A856CC6}" ShortID="435830079" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_7" ID="{317F0A4F-8BD8-4AC4-AC20-A812912E3E74}" ShortID="551920708">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_7" ID="{317F0A4F-8BD8-4AC4-AC20-A812912E3E74}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guit_Blues_8" ID="{4037C02F-DFB2-4424-8EE5-CA09DD899520}" ShortID="161027769" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guit_Blues_8" ID="{601F3494-4A49-4B9B-9B51-1065A9918897}" ShortID="241119257">
+													<Language>SFX</Language>
+													<AudioFile>Guit_Blues_8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guit_Blues_8" ID="{601F3494-4A49-4B9B-9B51-1065A9918897}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Clar_Blues" ID="{AB629392-AAE9-4475-9A29-93D1BBAF44E1}" ShortID="735101871">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Clar_Blues_1" ID="{2BCACF72-35BE-4E05-B96E-E94E3760A7D9}" ShortID="656810903" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clar_Blues_1" ID="{9F5EDF68-8CFE-44BD-BBA2-2628A0450943}" ShortID="585469691">
+													<Language>SFX</Language>
+													<AudioFile>Clar_Blues_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clar_Blues_1" ID="{9F5EDF68-8CFE-44BD-BBA2-2628A0450943}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Clar_Blues_2" ID="{D5C8E59B-A56F-4C47-A5D3-7FA04314BF22}" ShortID="79986235" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clar_Blues_2" ID="{699054BD-96B4-4804-ABEA-F93BBC40BA7B}" ShortID="169760785">
+													<Language>SFX</Language>
+													<AudioFile>Clar_Blues_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clar_Blues_2" ID="{699054BD-96B4-4804-ABEA-F93BBC40BA7B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Clar_Blues_3" ID="{88149D26-E152-4DB9-8D42-147F0328CE97}" ShortID="331549629" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clar_Blues_3" ID="{B2B5FE34-9DC6-40B8-B4BD-4D885AB2148E}" ShortID="733141187">
+													<Language>SFX</Language>
+													<AudioFile>Clar_Blues_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clar_Blues_3" ID="{B2B5FE34-9DC6-40B8-B4BD-4D885AB2148E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Clar_Blues_4" ID="{066A26CA-3859-416D-8AD4-E6210418B6AC}" ShortID="571570412" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clar_Blues_4" ID="{2C904044-BCB3-4E79-8BFB-3024FB51BBE6}" ShortID="838631983">
+													<Language>SFX</Language>
+													<AudioFile>Clar_Blues_4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clar_Blues_4" ID="{2C904044-BCB3-4E79-8BFB-3024FB51BBE6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Clar_Blues_5" ID="{7F57E460-4B2A-4AF1-869A-568916F1BC21}" ShortID="583968963" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clar_Blues_5" ID="{4358A85D-E718-41B0-9C6D-B8A2E0EF8DBD}" ShortID="776378453">
+													<Language>SFX</Language>
+													<AudioFile>Clar_Blues_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clar_Blues_5" ID="{4358A85D-E718-41B0-9C6D-B8A2E0EF8DBD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Clar_Blues_6" ID="{90A8FB1B-F2E6-46AF-88D6-C350F28A3141}" ShortID="413885661" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clar_Blues_6" ID="{EA5021FE-2467-44D2-938C-D3776075F21F}" ShortID="16582460">
+													<Language>SFX</Language>
+													<AudioFile>Clar_Blues_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clar_Blues_6" ID="{EA5021FE-2467-44D2-938C-D3776075F21F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Clar_Blues_7" ID="{99263F10-9E56-4B96-AE30-CC348948E814}" ShortID="523888844" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clar_Blues_7" ID="{3D8396E0-E10B-4A48-9256-6BB273CCBB63}" ShortID="350114511">
+													<Language>SFX</Language>
+													<AudioFile>Clar_Blues_7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Clar_Blues_7" ID="{3D8396E0-E10B-4A48-9256-6BB273CCBB63}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Flute_effet" ID="{7674C36C-36A5-4C17-AA62-EBC393FA3B4D}" ShortID="537816772">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Flute_effet_1" ID="{5D411EF0-13FA-4891-A033-F7EF2038F3D4}" ShortID="551900189" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_effet_1" ID="{79B5D58C-C878-45C3-968D-F9D25BD5EAEF}" ShortID="922595478">
+											<Language>SFX</Language>
+											<AudioFile>Flute_effet_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_effet_1" ID="{79B5D58C-C878-45C3-968D-F9D25BD5EAEF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flute_effet_2" ID="{C2C52599-597F-4DE3-B82F-BA8F21FC2DF5}" ShortID="884226342" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_effet_2" ID="{0805BF07-46A2-441A-A4D4-E011422621DC}" ShortID="652293330">
+											<Language>SFX</Language>
+											<AudioFile>Flute_effet_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_effet_2" ID="{0805BF07-46A2-441A-A4D4-E011422621DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flute_effet_3" ID="{4DC00A88-2F22-4E1E-BEDC-B22C9E6BFABF}" ShortID="908278211" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_effet_3" ID="{68B39C7B-F8CD-4015-B7F9-ECE194E1ED26}" ShortID="196492651">
+											<Language>SFX</Language>
+											<AudioFile>Flute_effet_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_effet_3" ID="{68B39C7B-F8CD-4015-B7F9-ECE194E1ED26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Flute_Emin" ID="{9F27C5A7-17AB-4AF0-933F-0B371183CA13}" ShortID="578951025">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{93EB245C-3B50-4381-BF9C-0B82AD414995}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Flute_Emin_1" ID="{FFD87DAB-EF13-4F92-9B13-A3A983D4855A}" ShortID="875199080" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_Emin_1" ID="{038524B9-E923-4C40-85DD-A49809B3DA2C}" ShortID="601070269">
+											<Language>SFX</Language>
+											<AudioFile>Flute_Emin_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_Emin_1" ID="{038524B9-E923-4C40-85DD-A49809B3DA2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flute_Emin_2" ID="{511C8E88-6A61-42A6-AC06-745DD2722FF6}" ShortID="375916937" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_Emin_2" ID="{48C2DDF3-50AB-43D2-A763-F1DD89AE78A0}" ShortID="539734902">
+											<Language>SFX</Language>
+											<AudioFile>Flute_Emin_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_Emin_2" ID="{48C2DDF3-50AB-43D2-A763-F1DD89AE78A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flute_Emin_3" ID="{BE82CE10-BE8D-4968-99AF-BF507B4B6F53}" ShortID="382861985" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_Emin_3" ID="{8F1FD6CF-3238-4794-A4BA-320B857A6388}" ShortID="528155443">
+											<Language>SFX</Language>
+											<AudioFile>Flute_Emin_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_Emin_3" ID="{8F1FD6CF-3238-4794-A4BA-320B857A6388}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flute_Emin_4" ID="{2ECF6107-B439-4352-92B5-CC9A38E0C8BE}" ShortID="373234995" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_Emin_4" ID="{A59CB454-F885-43B2-8CA2-8B0544D58FDC}" ShortID="915374066">
+											<Language>SFX</Language>
+											<AudioFile>Flute_Emin_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_Emin_4" ID="{A59CB454-F885-43B2-8CA2-8B0544D58FDC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flute_Emin_5" ID="{B99F5B2E-AFC4-4908-8D3E-1B6C3D080CF0}" ShortID="699937918" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_Emin_5" ID="{719D7E74-24FC-4AD6-8CB0-8E606C32A762}" ShortID="1021799622">
+											<Language>SFX</Language>
+											<AudioFile>Flute_Emin_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_Emin_5" ID="{719D7E74-24FC-4AD6-8CB0-8E606C32A762}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flute_Emin_6" ID="{781279C1-FE6B-432B-A52A-4A94EE51B693}" ShortID="163258967" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flute_Emin_6" ID="{1F8564A5-61F1-4665-B360-CA9E5174B6B3}" ShortID="331748176">
+											<Language>SFX</Language>
+											<AudioFile>Flute_Emin_6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flute_Emin_6" ID="{1F8564A5-61F1-4665-B360-CA9E5174B6B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Guitares_Accords" ID="{39FAA9FA-7E4B-415C-A794-C26CBB87B8BE}" ShortID="624135724">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BypassEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{638AB441-5DB8-4DB9-BE07-BA91D3BD608F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Guit_Accord_1" ID="{71CFD697-C1FA-446E-86FA-0717A25F290F}" ShortID="219972248" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Accord_1" ID="{F9F5A443-06C9-4989-8DA7-21F3218647D3}" ShortID="478037187">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Accord_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Accord_1" ID="{F9F5A443-06C9-4989-8DA7-21F3218647D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Accord_2" ID="{54FB3FEB-8AE1-4C80-9408-92343DEB2639}" ShortID="188828406" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Accord_2" ID="{F768BEB9-717E-4221-81BD-6030046AFDA5}" ShortID="77854511">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Accord_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Accord_2" ID="{F768BEB9-717E-4221-81BD-6030046AFDA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Accord_3" ID="{0E86D7A4-B0CE-4B73-B93D-CDC975006B19}" ShortID="988178789" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Accord_3" ID="{A39839BB-E2F2-4324-9F9E-1409A725D507}" ShortID="467942300">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Accord_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Accord_3" ID="{A39839BB-E2F2-4324-9F9E-1409A725D507}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Accord_4" ID="{9BAEEBA7-2BAD-44B7-B18B-BA18D4CF9497}" ShortID="192688441" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Accord_4" ID="{EA4FCDF0-F84B-4B65-91C1-27791C57C360}" ShortID="7387126">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Accord_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Accord_4" ID="{EA4FCDF0-F84B-4B65-91C1-27791C57C360}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_1" ID="{35E43D36-3D34-42BC-B7A4-F01AAFC6098E}" ShortID="187128658" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_1" ID="{4F783949-C6DE-4446-99FE-0B678231FE45}" ShortID="1021336483">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_1" ID="{4F783949-C6DE-4446-99FE-0B678231FE45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_2" ID="{AED40CAF-D481-4D27-9BAE-8D5F8DD67565}" ShortID="87901170" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_2" ID="{281A8999-1361-4E44-A458-1B9F9FE058E8}" ShortID="226561143">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_2" ID="{281A8999-1361-4E44-A458-1B9F9FE058E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_3" ID="{CAABBDAA-0DA8-4854-81C1-5867B04934CD}" ShortID="12301720" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_3" ID="{96424FD4-4C59-4D1A-BCD8-03CDB5A8480B}" ShortID="630336845">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_3" ID="{96424FD4-4C59-4D1A-BCD8-03CDB5A8480B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_4" ID="{86140549-3E80-4E4C-A7A6-53371F9F9D61}" ShortID="461840562" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_4" ID="{67DEE135-3421-486A-9675-21B245DDAB44}" ShortID="945824922">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_4" ID="{67DEE135-3421-486A-9675-21B245DDAB44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_5" ID="{53D542E1-4F35-48F5-A9FF-FB2130209C04}" ShortID="261973395" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_5" ID="{62F8AB4E-448E-453E-AD0E-8E764B8109CD}" ShortID="324398824">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_5" ID="{62F8AB4E-448E-453E-AD0E-8E764B8109CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_6" ID="{AF6AAC5F-CAF9-4108-84F4-B78D7F4521D2}" ShortID="773888773" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_6" ID="{5BE753AF-C002-47B0-916A-A6899A8CB495}" ShortID="540763410">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_6" ID="{5BE753AF-C002-47B0-916A-A6899A8CB495}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_7" ID="{15967027-280F-42BE-9D54-831458C18485}" ShortID="1015205501" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_7" ID="{1CB6A4AB-0879-4EDA-ABEF-1D5E6BCEE8CA}" ShortID="780867834">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_7" ID="{1CB6A4AB-0879-4EDA-ABEF-1D5E6BCEE8CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_8" ID="{4CA72128-1DA4-49C7-889E-EE2D20EC975B}" ShortID="488316384" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_8" ID="{F1FA4199-E2FB-4EFF-998D-E30DD31A237E}" ShortID="148282089">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_8" ID="{F1FA4199-E2FB-4EFF-998D-E30DD31A237E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_9" ID="{E5F841C3-C971-4798-AC9A-8B972F700B68}" ShortID="247137535" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_9" ID="{5F97ABDB-34B1-48B6-8670-33F7B7F9FEC2}" ShortID="195608423">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_9" ID="{5F97ABDB-34B1-48B6-8670-33F7B7F9FEC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Arpege_10" ID="{F9E446E4-6861-47F3-8850-BF0D629475E9}" ShortID="762652257" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Arpege_10" ID="{DA4A83DB-CC69-4285-8888-DC9E31CA78E7}" ShortID="1062131593">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Arpege_10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Arpege_10" ID="{DA4A83DB-CC69-4285-8888-DC9E31CA78E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Guitares_Harmo_Reverse" ID="{991EA78C-C487-4E0C-9E14-7021F37260FA}" ShortID="216323112">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9C3C8D4A-238F-4FE2-91C9-1C5AC611B586}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Guit_Reverse_1" ID="{406174CE-9894-48F5-A4D3-B26B146EF8CE}" ShortID="523280722" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Reverse_1" ID="{D293257A-3CB0-4871-98B8-2FF9695FC448}" ShortID="350207201">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Reverse_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Reverse_1" ID="{D293257A-3CB0-4871-98B8-2FF9695FC448}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Reverse_2" ID="{217BBE8E-22D5-40C2-BF4C-21ADCA4E1A56}" ShortID="1038973402" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Reverse_2" ID="{412E6930-DFBF-4D01-8B15-E09E4CFCE810}" ShortID="623120574">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Reverse_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Reverse_2" ID="{412E6930-DFBF-4D01-8B15-E09E4CFCE810}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Reverse_3" ID="{C5E3FE05-2373-4343-89A6-85C61C879FF0}" ShortID="274319026" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Reverse_3" ID="{5C72F144-7406-4F07-A7C1-67CC7E1351C6}" ShortID="160551559">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Reverse_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Reverse_3" ID="{5C72F144-7406-4F07-A7C1-67CC7E1351C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Reverse_4" ID="{9ADFD8F2-3D13-4FAE-AA9F-FE7ADCC4D8F9}" ShortID="211891707" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Reverse_4" ID="{29E0C5DE-B102-4C12-97B7-B78D3DAD3EA9}" ShortID="313300289">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Reverse_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Reverse_4" ID="{29E0C5DE-B102-4C12-97B7-B78D3DAD3EA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Harmoniques_1" ID="{F39C0E71-F26D-42B4-9CF0-2BD090422647}" ShortID="400951324" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Harmoniques_1" ID="{427CE510-8B90-4F25-861D-72AD6B94BF77}" ShortID="162941942">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Harmoniques_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Harmoniques_1" ID="{427CE510-8B90-4F25-861D-72AD6B94BF77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Harmoniques_2" ID="{FE7299A0-3A82-4528-81EF-11DFB2B3A713}" ShortID="711408792" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Harmoniques_2" ID="{21311F67-098B-4C00-B068-8DF3EF552C07}" ShortID="282978186">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Harmoniques_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Harmoniques_2" ID="{21311F67-098B-4C00-B068-8DF3EF552C07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Harmoniques_3" ID="{EE3BA738-FBA0-4800-B899-D9A4F4F2FADC}" ShortID="1064107666" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Harmoniques_3" ID="{075B7B38-89D7-4135-9ADB-2DB900B70311}" ShortID="586351301">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Harmoniques_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Harmoniques_3" ID="{075B7B38-89D7-4135-9ADB-2DB900B70311}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Harmoniques_4" ID="{E6C87F2E-93B0-43AB-A317-2B6146DBA96A}" ShortID="434640124" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Harmoniques_4" ID="{2968E2BF-4502-4908-A400-A90A6341357C}" ShortID="1005886668">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Harmoniques_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Harmoniques_4" ID="{2968E2BF-4502-4908-A400-A90A6341357C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guit_Harmoniques_5" ID="{7D8DA12B-1EE1-42F3-A81A-29FF8F441FD6}" ShortID="816402613" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0657860C-445A-4CA9-8E7B-06536E0444A8}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Blue_Distant_Echoes" ID="{ABFA9875-521E-451F-AAB9-AB148847B9C0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect2" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED4E45B5-E820-4A15-AA76-22862EEF7989}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guit_Harmoniques_5" ID="{CB1CF73F-F49F-44BC-BB79-6E71B2A8CFED}" ShortID="933389003">
+											<Language>SFX</Language>
+											<AudioFile>Guit_Harmoniques_5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guit_Harmoniques_5" ID="{CB1CF73F-F49F-44BC-BB79-6E71B2A8CFED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

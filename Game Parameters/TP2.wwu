@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07FD7875-6FD4-4636-B110-34BF3B558DFF}" SchemaVersion="75">
+	<GameParameters>
+		<WorkUnit Name="TP2" ID="{07FD7875-6FD4-4636-B110-34BF3B558DFF}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Danger" ID="{B1F900E8-1527-4092-BCFD-097C92F076A2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

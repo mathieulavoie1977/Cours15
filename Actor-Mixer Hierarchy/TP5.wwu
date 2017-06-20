@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{61AD2CA0-A72D-44D0-8C8C-32B443CE0606}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="TP5" ID="{61AD2CA0-A72D-44D0-8C8C-32B443CE0606}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Glock" ID="{F9BF6F63-34FE-409A-870C-43C6328585F4}" ShortID="345747412">
+					<PropertyList>
+						<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{EB1B3C16-E01C-463F-8A8A-DFCF827C1500}" ShortID="627722556">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3093CD71-D0B3-4DC5-A91A-71E58292BEDD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-3.30867</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>127</XPos>
+												<YPos>12.77249</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="E6" ID="{F2896C88-2C42-4795-8C44-C9E132866135}" ShortID="730694393">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="89"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="87"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="88"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock E6a" ID="{97FEE2BD-0059-4A29-A5F4-AD799636E100}" ShortID="1068073252" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock E6a" ID="{6B38AE5D-62FB-4BCA-BDD7-EF6568169796}" ShortID="712726164">
+											<Language>SFX</Language>
+											<AudioFile>Glock E6a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock E6a" ID="{6B38AE5D-62FB-4BCA-BDD7-EF6568169796}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock E6b" ID="{AC2276D9-9980-4D1A-83D5-2D1510762ED0}" ShortID="906346328" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock E6b" ID="{92C8B811-5656-445C-B471-1E76284DB848}" ShortID="672658733">
+											<Language>SFX</Language>
+											<AudioFile>Glock E6b.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock E6b" ID="{92C8B811-5656-445C-B471-1E76284DB848}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock E6c" ID="{D3236E96-3E3B-4560-8068-6797F625F4C1}" ShortID="174999388" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock E6c" ID="{AABED601-9E0F-456C-A4CA-099F55F7DF38}" ShortID="992987851">
+											<Language>SFX</Language>
+											<AudioFile>Glock E6c.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock E6c" ID="{AABED601-9E0F-456C-A4CA-099F55F7DF38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="G5" ID="{E281282E-B560-431F-ABBE-EB6CC0F4386F}" ShortID="968350688">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="80"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="78"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="79"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock G5a" ID="{6393EB56-D6D5-4FA1-8D4C-F6A8ED295216}" ShortID="719064722" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock G5a" ID="{FAF6FBCC-7E56-440A-A5FF-A4E73B5C3664}" ShortID="850179225">
+											<Language>SFX</Language>
+											<AudioFile>Glock G5a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock G5a" ID="{FAF6FBCC-7E56-440A-A5FF-A4E73B5C3664}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock G5b" ID="{FB3119BB-17CC-439F-AD11-08F5122962E0}" ShortID="153952037" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock G5b" ID="{476A5E63-7229-429D-BDDA-FAA74D771680}" ShortID="405217666">
+											<Language>SFX</Language>
+											<AudioFile>Glock G5b.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock G5b" ID="{476A5E63-7229-429D-BDDA-FAA74D771680}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock G5c" ID="{DF2DEB8B-16CF-465F-BBD3-FE6DB2C87D1C}" ShortID="107043400" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock G5c" ID="{FF8E1CFC-6ACE-45C2-87DB-A9AEE68C7619}" ShortID="860094674">
+											<Language>SFX</Language>
+											<AudioFile>Glock G5c.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock G5c" ID="{FF8E1CFC-6ACE-45C2-87DB-A9AEE68C7619}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="C5" ID="{5AAEEFA3-84CE-4F09-AA69-F0FFF88D0C5F}" ShortID="601022262">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="74"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="72"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock C5a" ID="{4076962F-B416-417D-AB3B-10CE56D73EEC}" ShortID="738350096" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock C5a" ID="{8C27CC65-CF3C-4E63-93AF-B24A509780DB}" ShortID="581251734">
+											<Language>SFX</Language>
+											<AudioFile>Glock C5a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock C5a" ID="{8C27CC65-CF3C-4E63-93AF-B24A509780DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock C5b" ID="{7F0BA5CF-71B9-4AD6-9C50-92E650286452}" ShortID="325843641" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock C5b" ID="{9DE7CF8D-F330-4A02-A998-DE8E35DF3D06}" ShortID="885063994">
+											<Language>SFX</Language>
+											<AudioFile>Glock C5b.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock C5b" ID="{9DE7CF8D-F330-4A02-A998-DE8E35DF3D06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock C5c" ID="{999E8DCD-768F-4D50-856C-DA3C3F0383ED}" ShortID="18095189" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock C5c" ID="{AB985621-BE6A-4C0E-B67B-0CF41E20C146}" ShortID="1064867103">
+											<Language>SFX</Language>
+											<AudioFile>Glock C5c.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock C5c" ID="{AB985621-BE6A-4C0E-B67B-0CF41E20C146}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="E5" ID="{8C5C7826-4CE8-4582-90A2-5D7BC15E2C67}" ShortID="651124145">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="77"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="75"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="76"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock E5a" ID="{E0BDB2F9-B421-40E9-80D6-768689C33832}" ShortID="939527553" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock E5a" ID="{0905807F-1D7B-44FD-9322-808625B519E8}" ShortID="720576474">
+											<Language>SFX</Language>
+											<AudioFile>Glock E5a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock E5a" ID="{0905807F-1D7B-44FD-9322-808625B519E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock E5b" ID="{C28E5B52-69C0-41C1-ADAB-50CE492F73DE}" ShortID="479539508" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock E5b" ID="{B188F973-6BC3-47FB-A108-747B9232DD85}" ShortID="649704293">
+											<Language>SFX</Language>
+											<AudioFile>Glock E5b.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock E5b" ID="{B188F973-6BC3-47FB-A108-747B9232DD85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock E5c" ID="{DA8385B1-200F-4101-B177-54FAD954A745}" ShortID="347825948" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock E5c" ID="{6518F043-ECC9-43C9-9EFA-51AE6231D01B}" ShortID="228588677">
+											<Language>SFX</Language>
+											<AudioFile>Glock E5c.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock E5c" ID="{6518F043-ECC9-43C9-9EFA-51AE6231D01B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="C#6" ID="{0504987C-7162-4176-AE97-5156AD996505}" ShortID="892409486">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="86"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="84"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="85"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock C#6a" ID="{EF54C084-1315-4339-8EBD-8B6C26863F53}" ShortID="959733079" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock C#6a" ID="{E0A81272-4A60-41B3-B63F-96F358D872E6}" ShortID="596780527">
+											<Language>SFX</Language>
+											<AudioFile>Glock C#6a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock C#6a" ID="{E0A81272-4A60-41B3-B63F-96F358D872E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock C#6b" ID="{C552F9D9-7AB2-469B-BBFA-2736CA15579C}" ShortID="853750382" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock C#6b" ID="{8D450487-CFBB-40E3-A8EB-9E11FB5A9710}" ShortID="479031972">
+											<Language>SFX</Language>
+											<AudioFile>Glock C#6b.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock C#6b" ID="{8D450487-CFBB-40E3-A8EB-9E11FB5A9710}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock C#6c" ID="{9E2FA38E-D7BB-4C7A-A00B-956E3EC2782A}" ShortID="493122651" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock C#6c" ID="{70507FE7-475E-41C3-8990-62DC9435AF0F}" ShortID="64219151">
+											<Language>SFX</Language>
+											<AudioFile>Glock C#6c.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock C#6c" ID="{70507FE7-475E-41C3-8990-62DC9435AF0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="G6" ID="{2C44F9E1-7F15-4C13-AA0F-E49ED09BCA58}" ShortID="871142797">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="91"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="90"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="91"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock G6a" ID="{641BC92E-C43D-4DBC-BFA6-5B7094854B12}" ShortID="984719057" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock G6a" ID="{6CB0FCDA-F3E5-4900-A859-9A5D801807A2}" ShortID="330852027">
+											<Language>SFX</Language>
+											<AudioFile>Glock G6a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock G6a" ID="{6CB0FCDA-F3E5-4900-A859-9A5D801807A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock G6b" ID="{E7A966F7-12C5-498E-9248-6E5A9B82EDAE}" ShortID="249359646" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock G6b" ID="{DC993038-7FA7-455A-8925-B54ED14CA291}" ShortID="227459182">
+											<Language>SFX</Language>
+											<AudioFile>Glock G6b.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock G6b" ID="{DC993038-7FA7-455A-8925-B54ED14CA291}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock G6c" ID="{11C5A536-B18E-48E0-B9EB-68D115A205FF}" ShortID="193443583" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock G6c" ID="{D22597FC-71B5-4362-91DD-C03610DC4719}" ShortID="402151057">
+											<Language>SFX</Language>
+											<AudioFile>Glock G6c.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock G6c" ID="{D22597FC-71B5-4362-91DD-C03610DC4719}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bb5" ID="{CCDD2823-7ABC-4BCC-85B7-C0048506B892}" ShortID="163447459">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="83"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="81"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="82"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Glock Bb5a" ID="{35CA8CD5-04B1-4B51-A82F-B1F7EDBBCA42}" ShortID="611488817" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock Bb5a" ID="{409F1705-0D87-4C5A-A9BF-937E79E0F4EC}" ShortID="45609122">
+											<Language>SFX</Language>
+											<AudioFile>Glock Bb5a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock Bb5a" ID="{409F1705-0D87-4C5A-A9BF-937E79E0F4EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock Bb5b" ID="{9F692E67-CF0D-4F31-B864-0D0FD4E1E98A}" ShortID="281194613" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock Bb5b" ID="{8980CB4F-BA3D-401E-901F-7480C21F6411}" ShortID="695669320">
+											<Language>SFX</Language>
+											<AudioFile>Glock Bb5b.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock Bb5b" ID="{8980CB4F-BA3D-401E-901F-7480C21F6411}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Glock Bb5c" ID="{63947B9C-A05E-4EEE-A939-27A3395FB52B}" ShortID="425388012" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Glock Bb5c" ID="{D76272B6-6A84-43BF-8839-8A46853B9587}" ShortID="508175203">
+											<Language>SFX</Language>
+											<AudioFile>Glock Bb5c.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Glock Bb5c" ID="{D76272B6-6A84-43BF-8839-8A46853B9587}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+				<Sound Name="Bass_Synth" ID="{8F8268ED-23F4-401C-AA69-882CD125B36A}" ShortID="647276769" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{DF18C8E7-7F2A-443E-961E-2938D02FD8C8}" ShortID="181846478" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="98"/>
+								<Property Name="FmAmount" Type="Real32" Value="12.1">
+									<RTPCList>
+										<RTPC Name="" ID="{B1B946DE-650E-4516-A394-6184E8E24923}" ShortID="799849436">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3794932E-8C29-4261-9714-25A641FE694F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>30.84338</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Level" Type="Real32" Value="-11"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="-1200"/>
+								<Property Name="Osc2Waveform" Type="int32" Value="1"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{8CD5A61C-3CDE-4FE5-8B6D-FBF6DEE09ED6}" ShortID="148876610">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{6B64A0FD-CCB2-411D-8324-639CF669579C}" ShortID="584586762">
+															<PropertyList>
+																<Property Name="EnvelopeAttackCurve" Type="Real64" Value="55"/>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.068"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.263"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="90"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{659A9217-42F7-44C1-B76D-1B988FA8E53E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{DF18C8E7-7F2A-443E-961E-2938D02FD8C8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lead_Synth" ID="{54503BB8-6B92-4865-9E7A-5265A38A814B}" ShortID="407616524" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{450A6421-D10C-47B5-B4A7-1D3700D6D3DB}" ShortID="92117735">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MIDI pitch bend" ID="{B618CC3F-04FA-4149-A36B-37B8A1F2B642}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{71614707-C38A-451C-8748-3CFA64E0B22F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>127</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{B372F3FE-B31F-4A5C-8DE5-5288A03370D7}" ShortID="230871959">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{80F6B186-D13A-45B1-8204-1DEB3CF492A1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-14.5941</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>127</XPos>
+												<YPos>-5.34613</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{42A4B616-A6C0-4431-B8B4-DFF457C0BC0A}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Guitar Distortion (Custom)" ID="{0021C553-52EE-4FC6-A695-D6F2615FE3C3}" ShortID="600819294" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<PropertyList>
+										<Property Name="WetDryMix" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{3C64E280-ED34-4690-9BDF-F6D3DEFEAA3C}" ShortID="435690257">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CC #1: Modulation" ID="{B618CBBE-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FC4F1F47-16B2-4769-816A-F169D8F36B64}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+							<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44FE09F-26F0-4034-902C-92415DC65EBB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{99A1F922-947B-47C8-B2D4-57353F597AA9}" ShortID="1007613691" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FmAmount" Type="Real32" Value="7.9"/>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Transpose" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{F4472053-54E3-4415-A484-50D231763F8F}" ShortID="596943632">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{8B9488E7-552C-4BEA-B722-63E6DA86EFF0}" ShortID="28737744">
+															<PropertyList>
+																<Property Name="LfoDepth" Type="Real64">
+																	<RTPCList>
+																		<RTPC Name="" ID="{CEE09D9E-7F11-4FA5-A1E3-C7D83743C8E2}" ShortID="749539727">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="CC #1: Modulation" ID="{B618CBBE-04FA-4149-A36B-37B8A1F2B642}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{B75090F8-03BE-4659-98F8-EAF6E85FE5ED}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>127</XPos>
+																						<YPos>100</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E090CD98-89EA-49C3-93C1-2EC90940DADD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Osc1Waveform" Type="int32" Value="2"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{00D89DCC-F4F6-47FF-8AE9-0AEAB60AF3CE}" ShortID="615976396">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{3B7E4DD2-5F92-4971-AF38-897647F28FE8}" ShortID="587463435">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.511"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.511"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F866DF91-09C8-4820-BCA1-898E7E3293F6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{99A1F922-947B-47C8-B2D4-57353F597AA9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

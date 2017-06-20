@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD4D1330-0DC3-4455-A15E-D0AB14D5407A}" SchemaVersion="75">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CD4D1330-0DC3-4455-A15E-D0AB14D5407A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="TP_Final" ID="{3BA42D27-7737-4F61-8C49-BE76D073017C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="TP_05" ID="{92389DEF-4D40-4C43-9CE9-41B5AB2D8811}" WorkUnitID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TP_03" ID="{A28F90BE-A255-452E-8115-95376DB8D76C}" WorkUnitID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TP06" ID="{D2FDA19B-5383-44E7-8889-E4AB43171126}" WorkUnitID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TP_04" ID="{3ECAA371-0996-472D-AF09-E6F48F53D20E}" WorkUnitID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TP_01" ID="{2E0DD4F4-C89D-4B70-91FE-EAF028D650CF}" WorkUnitID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TP_Final" ID="{C0CAED81-ED27-42DF-879A-27F3EB31CD29}" WorkUnitID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TP_02" ID="{CE09E328-E13B-419A-ABC3-A5343734DB75}" WorkUnitID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Danger" ID="{B1F900E8-1527-4092-BCFD-097C92F076A2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Slide5" ID="{F0B548F3-7CAD-43C5-8610-1C5E3965DBFD}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="danger_01" ID="{4C1E4E66-3BF5-4CA6-8B35-4F559F6F8C18}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Exploration" ID="{83CDBA2A-DB4D-4662-AE01-66ABC6BD8FD6}"/>
+						<CurrentStateRef Name="TP_03" ID="{A118998E-6CBC-461F-A103-AD24F7693FA0}"/>
+						<CurrentStateRef Name="Slide_01" ID="{DFC8061F-335E-45AC-90F0-601F0C87EAC1}"/>
+						<CurrentStateRef Name="Krel" ID="{E212A144-B55F-4621-A96C-4AC337C19697}"/>
+						<CurrentStateRef Name="TP2A" ID="{241F9CDC-D600-4585-9C2F-720E8B95D3C5}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

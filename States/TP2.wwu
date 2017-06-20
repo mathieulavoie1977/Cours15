@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AEA5AA72-0D22-43D6-8847-6AAEFEF7E590}" SchemaVersion="75">
+	<States>
+		<WorkUnit Name="TP2" ID="{AEA5AA72-0D22-43D6-8847-6AAEFEF7E590}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="ENV" ID="{3BAC25EF-3ED9-42A6-B40D-3C540F0233CF}">
+					<ChildrenList>
+						<State Name="None" ID="{3694A3CD-3451-473E-B928-A721F48D23D4}"/>
+						<State Name="Exploration" ID="{83CDBA2A-DB4D-4662-AE01-66ABC6BD8FD6}"/>
+						<State Name="Combat" ID="{63B2A112-DD85-4B10-96E2-A9375C70E5B8}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="tp" ID="{B8A19B11-F69A-4D58-B923-2FDC94AF43E3}">
+					<ChildrenList>
+						<State Name="None" ID="{3E38F7D7-F531-48D9-B9DA-B1DD7477289D}"/>
+						<State Name="TP2A" ID="{241F9CDC-D600-4585-9C2F-720E8B95D3C5}"/>
+						<State Name="TP2B" ID="{55574786-BCC4-4B26-B3E5-CEF229E8751C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

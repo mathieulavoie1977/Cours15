@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADC72D41-A3CF-4147-A3C8-BC9E261AE5E9}" SchemaVersion="75">
+	<Triggers>
+		<WorkUnit Name="TP3" ID="{ADC72D41-A3CF-4147-A3C8-BC9E261AE5E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Bonus" ID="{C9212349-D06D-472C-9420-1C014735EB86}"/>
+				<Trigger Name="Impact_Extreme" ID="{CA96359D-338A-402B-9DDF-B2307751A08A}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

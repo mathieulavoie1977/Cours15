@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF184AA2-EFE5-43EB-B051-FFBC169984D6}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="TP4" ID="{EF184AA2-EFE5-43EB-B051-FFBC169984D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play" ID="{55D5FB99-552A-46FC-A25D-FE0CF129FFBD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B1D081CB-0585-42D4-8AE3-3819C1555060}" ShortID="829291801" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{1FAE57EF-08EA-4876-9FFC-7438B1348FFC}" Global="false">
+									<ObjectRef Name="Synth_loop" ID="{4BADAA72-3A33-40DE-BB6A-9CAEF035FBEE}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{5B46845B-9EA8-4750-AC6D-EEB2ECA1AA39}" ShortID="91524132" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{324E6225-0CE7-41AF-A401-F0D668F95D9F}" Global="false">
+									<ObjectRef Name="Guitares_Accords" ID="{39FAA9FA-7E4B-415C-A794-C26CBB87B8BE}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{C1B65DF2-889A-4BA9-AD84-08C640CEFA1C}" ShortID="676148441" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="15"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A52A6683-8968-4141-A2E7-39DFBA8BEC0C}" Global="false">
+									<ObjectRef Name="Flute_Emin" ID="{9F27C5A7-17AB-4AF0-933F-0B371183CA13}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{5EEA06AC-8FD3-4B91-8600-2C4D2F8C8E38}" ShortID="437325859" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="43.16"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{9AA8E1EE-20C9-4C57-B43E-ADC03B919231}" Global="false">
+									<ObjectRef Name="Guit_LoopEmin" ID="{22E4025A-D3C3-4E72-9418-DC12BB90B3AE}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{E8581027-3EA8-4C82-8136-521C0FADCC09}" ShortID="47805918" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="58.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{AB3E3CC7-C405-4B30-B706-1B550FBB6382}" Global="false">
+									<ObjectRef Name="Guitares_Harmo_Reverse" ID="{991EA78C-C487-4E0C-9E14-7021F37260FA}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{FE1E23AE-9B1D-445A-9239-0CDA892C8989}" ShortID="303644174" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="129"/>
+								<Property Name="FadeTime" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{3EE2A662-06A4-4EF6-BA2B-13F61D55ADF1}" Global="false">
+									<ObjectRef Name="Percu_Loop" ID="{BCFB3887-5C00-4D5A-A5FF-21C115783BB2}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{A8C0937C-68B2-4A56-AE59-11031DBB4662}" ShortID="501418958" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="85.33"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{FD7AEC6C-050A-460F-A728-0014A769813E}" Global="false">
+									<ObjectRef Name="Guit_Loop_Alt" ID="{21FB124C-81F0-426A-B133-84DA2D8BF82D}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{73046F52-EF94-4580-8934-9F46B406F9C4}" ShortID="138029099" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="85.33"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D0180CE3-9F54-44B8-8157-063C34B84FB9}" Global="false">
+									<ObjectRef Name="ALT_Impro" ID="{76124923-8B17-4646-A2E1-87E4A7BA6A02}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{15A2B04B-0532-44D1-92C8-9428638FD5A0}" ShortID="1025868315" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="85.33"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B6C7A9B5-CE4B-4999-9629-5769A1BE1E24}" Global="false">
+									<ObjectRef Name="Guit_LoopEmin" ID="{22E4025A-D3C3-4E72-9418-DC12BB90B3AE}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{CDC5F68E-D09A-4704-8755-FF8CDF011ECC}" ShortID="276714395" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="128"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B1F2E053-4370-45A4-A627-C62C961EF82F}" Global="false">
+									<ObjectRef Name="Blues" ID="{652B20D8-1E2F-4729-AD67-AA7952F9F544}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{AB76A2BD-777D-40A6-B2D3-860AC148E3F4}" ShortID="396165582" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="128"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{673D5DB4-5DB6-46B6-AB02-8D1EF781D572}" Global="false">
+									<ObjectRef Name="Guit_Loop_E7" ID="{5B1EF890-267F-4A9E-95B8-52E8C3907687}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{62BC9602-B468-483B-BCAA-1F9D517EDA00}" ShortID="855863444" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="160"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{50551C5C-40B5-44C2-B017-15EAA1EB62E8}" Global="false">
+									<ObjectRef Name="Flute_effet" ID="{7674C36C-36A5-4C17-AA62-EBC393FA3B4D}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{1F1CB656-ED3D-4691-9AA0-9F790D88591A}" ShortID="60854769" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="85.33"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{2122848E-6273-41C4-B299-6922E3059B1C}" Global="false">
+									<ObjectRef Name="Flute_Emin" ID="{9F27C5A7-17AB-4AF0-933F-0B371183CA13}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{723854D4-99AD-4F57-8662-5AA42170737C}" ShortID="709262909" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="128"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{377A6CE4-D8F9-45E2-B71B-3E62165A48A7}" Global="false">
+									<ObjectRef Name="ALT_Impro" ID="{76124923-8B17-4646-A2E1-87E4A7BA6A02}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{214E9AE6-CDD4-44DF-9A5F-A1D0A0AB86CA}" ShortID="363369006" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="85.83"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D7A665D2-A7FB-4FCD-AB01-D25502D626B8}" Global="false">
+									<ObjectRef Name="Synth_loop" ID="{4BADAA72-3A33-40DE-BB6A-9CAEF035FBEE}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{9E578863-9C6C-454A-9FBD-195F8BB0C57D}" ShortID="667848792" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="40"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C50DA3D0-4362-4180-B8D9-A81D416E3672}" Global="false">
+									<ObjectRef Name="Guitares_Accords" ID="{39FAA9FA-7E4B-415C-A794-C26CBB87B8BE}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{53F741F9-A253-40DC-BD01-1449C16AB03B}" ShortID="41920478" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="128"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{485D78B7-635A-4B77-83D9-0E0D2B6946E6}" Global="false">
+									<ObjectRef Name="Guit_Loop_Alt" ID="{21FB124C-81F0-426A-B133-84DA2D8BF82D}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{A17B261C-F7AF-4693-8765-B16F11CC5F98}" ShortID="270138203" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="85.33"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CF61A81A-DE09-4640-ACF2-E60145854893}" Global="false">
+									<ObjectRef Name="Guitares_Harmo_Reverse" ID="{991EA78C-C487-4E0C-9E14-7021F37260FA}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop All" ID="{1B669988-A513-4298-A191-F14F12FB0414}" ShortID="223543369" Type="Stop" Scope="All" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="180"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_all_01" ID="{F628B348-2515-4ED6-93BB-D0576D73F51F}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{E34A8538-5AB2-4D2F-8E72-C2852334D616}" ShortID="794085749" Type="Stop" Scope="All" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

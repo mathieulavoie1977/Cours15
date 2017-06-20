@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D1EE992-1F23-49D4-B02A-2920B7835B18}" SchemaVersion="75">
+	<States>
+		<WorkUnit Name="TP6" ID="{0D1EE992-1F23-49D4-B02A-2920B7835B18}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}">
+					<ChildrenList>
+						<State Name="None" ID="{F8829573-A5F2-4BC3-8CF4-6D8E853D476F}"/>
+						<State Name="Slide_01" ID="{DFC8061F-335E-45AC-90F0-601F0C87EAC1}"/>
+						<State Name="Slide_02" ID="{1035E4C0-F770-4764-94F7-65719598B161}"/>
+						<State Name="Slide_03" ID="{5BF30187-0BDA-4306-B325-F5906B4B8265}"/>
+						<State Name="Slide_04" ID="{A404DAB5-F830-41B8-9A3B-2773E401B131}"/>
+						<State Name="Slide_05" ID="{692D86D4-D0EF-468B-8E6F-D9EDE9F3C0EE}"/>
+						<State Name="Slide_06" ID="{5D9A6290-1232-450C-824F-4DC57C68FBF9}"/>
+						<State Name="Slide_07" ID="{2111498A-C229-4624-985D-19F383D671DD}"/>
+						<State Name="Slide_08" ID="{D727AE37-8F17-457B-885D-7FD426A7A9C3}"/>
+						<State Name="Slide_09" ID="{C9A83506-5397-40BE-896D-B2B519A5AFC9}"/>
+						<State Name="Slide_10" ID="{0FD2051C-EFBA-4D19-8869-8552482FF6FC}"/>
+						<State Name="Slide_11" ID="{FB9B7360-E9C7-4999-A3AF-5BAA0C239BFC}"/>
+						<State Name="Slide_12" ID="{E599D364-DD96-4BCB-BE7F-3F9F121A80C1}"/>
+						<State Name="Slide_13" ID="{A66B73AB-95BC-4621-9A8B-BB83D9B4323D}"/>
+						<State Name="Slide_14" ID="{61E65432-80E5-4E5B-8351-A59D90505199}"/>
+						<State Name="Slide_15" ID="{CD156AA9-EE6B-4EEC-BCDC-3DF181228621}"/>
+						<State Name="Slide_16" ID="{63A06C97-2451-4F87-B070-973F24C72EEF}"/>
+						<State Name="Slide_17" ID="{6BD0FC30-60AF-467A-A90A-C9D3F5A0F18C}"/>
+						<State Name="Slide_18" ID="{5EEAF23F-E58C-46BB-9C29-EC37E2CDC4CD}"/>
+						<State Name="Slide_19" ID="{519E8524-C64C-451E-90F3-04608BF6A4B5}"/>
+						<State Name="Slide_20" ID="{5896FFB4-A835-4883-868D-823BB41A4CC0}"/>
+						<State Name="Slide_21" ID="{7CC50F64-D609-48C4-8FA3-D3BDC15E66B4}"/>
+						<State Name="Slide_22" ID="{4DD10B3E-F866-4DDB-BADD-4A5BE6B7CAF8}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

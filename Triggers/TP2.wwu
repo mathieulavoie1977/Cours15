@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A65472BA-7D03-4CED-BFBB-060490286CDA}" SchemaVersion="75">
+	<Triggers>
+		<WorkUnit Name="TP2" ID="{A65472BA-7D03-4CED-BFBB-060490286CDA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Bonus_Health" ID="{21E9171C-CA4E-4303-B317-AD6350BD70C7}"/>
+				<Trigger Name="Bonus_Mana" ID="{A9BAE7EF-5437-4F81-B17B-29587484CCB5}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

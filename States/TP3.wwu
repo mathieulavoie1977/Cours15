@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3B9EAA6-E092-43CB-BF87-4B744E0CDD25}" SchemaVersion="75">
+	<States>
+		<WorkUnit Name="TP3" ID="{F3B9EAA6-E092-43CB-BF87-4B744E0CDD25}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Personnages" ID="{E140B2E6-07FD-471C-B5E6-EFD8AAE4E642}">
+					<ChildrenList>
+						<State Name="None" ID="{27FFBEC7-371A-4666-8ED4-D469E5222784}"/>
+						<State Name="Krel" ID="{E212A144-B55F-4621-A96C-4AC337C19697}"/>
+						<State Name="Liana" ID="{5B41436D-5BD9-4A80-9716-6E862B9F3DA5}"/>
+						<State Name="Mvak" ID="{DD3DCF2F-BC9C-42B2-820B-DE4B3511FFD9}"/>
+						<State Name="Pimilinivii" ID="{E07E0D70-BEC1-44A5-A1C4-7BA31EAD30D6}"/>
+						<State Name="Ariatsu" ID="{F8D8A821-E831-4C3D-A540-C48626CAAD98}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

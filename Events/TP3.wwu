@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93535A47-399C-4C90-BA6A-822D3DF7634A}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="TP3" ID="{93535A47-399C-4C90-BA6A-822D3DF7634A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Bonus" ID="{3661B0A1-6A35-4596-829A-498171D89618}">
+					<ChildrenList>
+						<Action Name="Trigger" ID="{A0729823-6E24-44BE-A486-AA6BBE53AB6C}" ShortID="461070594" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DEDB6443-2F35-4364-A87A-306AFBA5BAF4}" Global="false">
+									<ObjectRef Name="Bonus" ID="{C9212349-D06D-472C-9420-1C014735EB86}" WorkUnitID="{ADC72D41-A3CF-4147-A3C8-BC9E261AE5E9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Impact_Extreme" ID="{FA3EDE1F-DB2F-4E52-B018-66CCAF73B915}">
+					<ChildrenList>
+						<Action Name="Trigger" ID="{1A30FB62-BF1B-444A-A607-DC29A0ECA93F}" ShortID="221271106" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B2247389-ACE4-4E52-A3D1-EF7801B7CA86}" Global="false">
+									<ObjectRef Name="Impact_Extreme" ID="{CA96359D-338A-402B-9DDF-B2307751A08A}" WorkUnitID="{ADC72D41-A3CF-4147-A3C8-BC9E261AE5E9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ariatsu" ID="{FD308E1D-F05A-439B-AC4D-7821AF7CAEC3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FAE53468-935C-4B26-B800-6E8C9F4C0854}" ShortID="267432962" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F4BFD6E3-6077-4605-9D0E-71F95DB22774}" Global="false">
+									<ObjectRef Name="TP3_Main_Loop" ID="{228D93B5-BFB2-4F97-BBF4-88489FC14966}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{E7DD8AC3-D6B3-409D-A434-3FC4F676DFFF}" ShortID="488325632" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Personnages" ID="{E140B2E6-07FD-471C-B5E6-EFD8AAE4E642}"/>
+								<GroupItem Name="Ariatsu" ID="{F8D8A821-E831-4C3D-A540-C48626CAAD98}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Krel" ID="{BBA1D57E-3959-437C-8DF0-3D5CD764C179}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7A3B2E74-01F1-423A-8173-1A124FDD3BE9}" ShortID="526218614" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6C7A57CA-D7AB-48ED-9079-9544699FD15C}" Global="false">
+									<ObjectRef Name="TP3_Main_Loop" ID="{228D93B5-BFB2-4F97-BBF4-88489FC14966}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{C5331BCA-C9A9-4855-BBD0-FA50F575DD3A}" ShortID="128826982" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Personnages" ID="{E140B2E6-07FD-471C-B5E6-EFD8AAE4E642}"/>
+								<GroupItem Name="Krel" ID="{E212A144-B55F-4621-A96C-4AC337C19697}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Liana" ID="{969F8CD0-6307-42B9-8A2A-95E30FFD34DF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{646ED8F7-5873-429D-9AD4-D46A0927B3E4}" ShortID="369029216" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4DD2BC73-7BB3-4651-97D9-85E3B18CEDA4}" Global="false">
+									<ObjectRef Name="TP3_Main_Loop" ID="{228D93B5-BFB2-4F97-BBF4-88489FC14966}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{D589C370-E0E0-4267-B60E-D1A1536C8F01}" ShortID="946380176" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Personnages" ID="{E140B2E6-07FD-471C-B5E6-EFD8AAE4E642}"/>
+								<GroupItem Name="Liana" ID="{5B41436D-5BD9-4A80-9716-6E862B9F3DA5}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mvak" ID="{0685CFC0-6840-46D2-ABE9-44C2D564F4F1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{50C64117-4534-4BCD-BE2C-8016D6E115C3}" ShortID="720937069" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B2997BE7-9DEB-4087-AC7A-4DE8E12180B9}" Global="false">
+									<ObjectRef Name="TP3_Main_Loop" ID="{228D93B5-BFB2-4F97-BBF4-88489FC14966}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{0F16EFF3-D112-474B-A16E-EAC5A44C00E1}" ShortID="791176775" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Personnages" ID="{E140B2E6-07FD-471C-B5E6-EFD8AAE4E642}"/>
+								<GroupItem Name="Mvak" ID="{DD3DCF2F-BC9C-42B2-820B-DE4B3511FFD9}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayPiliminivii" ID="{1B4BEB32-C875-44D2-B16B-23C401C5766E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2C4021CE-4B8A-415D-91CC-491008F40630}" ShortID="1027959995" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4C213AD1-B8E1-45FB-A4BC-2C1A101B329B}" Global="false">
+									<ObjectRef Name="TP3_Main_Loop" ID="{228D93B5-BFB2-4F97-BBF4-88489FC14966}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{C7553DC2-B937-426E-8997-69A0146CA078}" ShortID="504498057" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Personnages" ID="{E140B2E6-07FD-471C-B5E6-EFD8AAE4E642}"/>
+								<GroupItem Name="Pimilinivii" ID="{E07E0D70-BEC1-44A5-A1C4-7BA31EAD30D6}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{4A6922D9-AA4F-4E4E-8FF0-0050C3702DBC}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{F19061D0-ED72-4E49-811C-7B0AD1E1283B}" ShortID="818440159" Type="Stop" Scope="All" Global="false"/>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

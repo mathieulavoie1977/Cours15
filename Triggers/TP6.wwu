@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FEE980BC-1C59-4A6B-9044-D117488BA598}" SchemaVersion="75">
+	<Triggers>
+		<WorkUnit Name="TP6" ID="{FEE980BC-1C59-4A6B-9044-D117488BA598}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Slide_20" ID="{2CADADF6-DE34-4796-BEC3-32F997FDB1D4}"/>
+				<Trigger Name="Slide_9" ID="{07D53B03-5E9B-442F-B40C-B4FC8FFD186D}"/>
+				<Trigger Name="Slide_11" ID="{A7DA8256-1DEB-4E8A-9E73-DD8475CAEDBF}"/>
+				<Trigger Name="Slide_12" ID="{813EC68F-893B-4BE1-B2FF-9447FEE6889C}"/>
+				<Trigger Name="Slide_13" ID="{FAD1AD19-DE39-4EEF-B5CA-1F66D356C6A5}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

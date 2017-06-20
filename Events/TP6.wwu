@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{89EFD3C8-D111-41DC-B271-DE92730BB9B3}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="TP6" ID="{89EFD3C8-D111-41DC-B271-DE92730BB9B3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Slide_01" ID="{F465EAE6-5F15-45CD-BE6C-E42D3D49D148}">
+					<ChildrenList>
+						<Action Name="Play" ID="{58ADE36D-7B12-40FD-BEAF-882936783BCA}" ShortID="744544701" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C3FB149C-AAA3-4474-A6A3-70A4D2192956}" Global="false">
+									<ObjectRef Name="TP6" ID="{1C1A0057-482C-4914-871D-C2A1BFA3FB32}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{1BEF5DC8-0CF8-4F19-8A0F-1186CE8EA790}" ShortID="270935154" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_01" ID="{DFC8061F-335E-45AC-90F0-601F0C87EAC1}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_02" ID="{61986DF9-DDB5-4416-97EF-167B72EB9A40}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{4E5860EA-BB99-46D2-8FB1-022485359888}" ShortID="298047961" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_02" ID="{1035E4C0-F770-4764-94F7-65719598B161}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_03" ID="{EC2AE1C4-F8B9-4220-A6DD-8C5549750E5F}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{5004801A-0FC1-4F25-8399-DB045E990416}" ShortID="67014824" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_03" ID="{5BF30187-0BDA-4306-B325-F5906B4B8265}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_04" ID="{DA6180EF-F52B-4511-B523-3D4EE3A49E5B}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{4739AA26-6B5D-4057-B8DC-8CC54D15A8F8}" ShortID="100136615" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_04" ID="{A404DAB5-F830-41B8-9A3B-2773E401B131}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{EDB2EB71-E848-44A1-8F52-A0F09F3CBE92}" ShortID="208528785" Type="SetGameParameter" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{E3F55996-0A33-474F-9AD5-1480D1EC88C1}" Global="true">
+									<ObjectRef Name="Slide5" ID="{F0B548F3-7CAD-43C5-8610-1C5E3965DBFD}" WorkUnitID="{18E1DB74-A3ED-4C1E-B294-CBC470EB091E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_05" ID="{191A709B-8855-4306-ACE9-4C960C21C7A8}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{1F682625-238A-42CC-8CE2-6D77A423DEA0}" ShortID="617978417" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_05" ID="{692D86D4-D0EF-468B-8E6F-D9EDE9F3C0EE}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{A3B234CB-D3AF-4BF3-8A4B-C55BDAF5C91D}" ShortID="84521788" Type="SetGameParameter" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{FEFEEE63-9629-46B9-B4EB-FBC2CA5C6D4C}" Global="true">
+									<ObjectRef Name="Slide5" ID="{F0B548F3-7CAD-43C5-8610-1C5E3965DBFD}" WorkUnitID="{18E1DB74-A3ED-4C1E-B294-CBC470EB091E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_06" ID="{821018B2-E190-4DDD-901E-72804DAE1C70}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{A86E4178-72B3-4F5D-A5A6-380A1A776624}" ShortID="922303449" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_06" ID="{5D9A6290-1232-450C-824F-4DC57C68FBF9}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_07" ID="{FB5C4831-591B-4D43-8ECF-D01B2EF17E40}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{C39E2E46-A41F-4D50-98FA-7B588AE312F1}" ShortID="342212574" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_07" ID="{2111498A-C229-4624-985D-19F383D671DD}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_08" ID="{A885259B-F3F4-4FE7-85A9-1383EC51D54A}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{B670736E-A8B3-49FA-B09A-AF310454ABFA}" ShortID="191767908" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_08" ID="{D727AE37-8F17-457B-885D-7FD426A7A9C3}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_09" ID="{4221976C-D6CC-41D8-ACA7-7C8A109503FE}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{E86B1411-9C77-437A-8B47-E8AFD2904704}" ShortID="66500280" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_09" ID="{C9A83506-5397-40BE-896D-B2B519A5AFC9}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Trigger" ID="{B3CA1A6A-B01D-417F-BBB2-54B2D2895829}" ShortID="267316095" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A7A966BF-75F3-4D73-9705-62525152924E}" Global="false">
+									<ObjectRef Name="Slide_9" ID="{07D53B03-5E9B-442F-B40C-B4FC8FFD186D}" WorkUnitID="{FEE980BC-1C59-4A6B-9044-D117488BA598}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_10" ID="{33B3CD7B-64DA-458A-90F0-0414235C7E62}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{74314ACB-D883-46B0-A27C-8FE6B58E5E6E}" ShortID="77497254" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_10" ID="{0FD2051C-EFBA-4D19-8869-8552482FF6FC}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_11" ID="{7C79BED8-1AC8-44AD-BF65-5151359C3CAE}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{CDF4C377-8122-49E3-92F7-86C97DC44CF8}" ShortID="189675900" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_11" ID="{FB9B7360-E9C7-4999-A3AF-5BAA0C239BFC}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Trigger" ID="{231FEE8C-B57E-4690-8FD8-77183B234A2D}" ShortID="320252289" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D3B73DA3-88CD-49FF-B7F4-DE10F02AC45D}" Global="false">
+									<ObjectRef Name="Slide_11" ID="{A7DA8256-1DEB-4E8A-9E73-DD8475CAEDBF}" WorkUnitID="{FEE980BC-1C59-4A6B-9044-D117488BA598}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_12" ID="{88B0D933-A033-4941-A3A5-4D9D10CD48EF}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{7A8B5A3B-E66A-4391-A1AC-B7C31F482413}" ShortID="142209051" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_12" ID="{E599D364-DD96-4BCB-BE7F-3F9F121A80C1}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Trigger" ID="{7C74073A-7E6C-42C0-9CA2-90C2D522DFD4}" ShortID="570813402" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{90E19488-AE46-44EB-A299-BE2A76352D97}" Global="false">
+									<ObjectRef Name="Slide_12" ID="{813EC68F-893B-4BE1-B2FF-9447FEE6889C}" WorkUnitID="{FEE980BC-1C59-4A6B-9044-D117488BA598}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_13" ID="{21974BFF-843A-4CAA-81FB-0ECCF35A5E15}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{3BA152BB-9661-4B10-B88B-58A270982944}" ShortID="74658848" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_13" ID="{A66B73AB-95BC-4621-9A8B-BB83D9B4323D}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Trigger" ID="{80136AFA-7B53-4E4C-8FA2-BCB94985CF09}" ShortID="371661608" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B1F4BD6A-9CFF-4F71-8C25-45C25CDA1200}" Global="false">
+									<ObjectRef Name="Slide_13" ID="{FAD1AD19-DE39-4EEF-B5CA-1F66D356C6A5}" WorkUnitID="{FEE980BC-1C59-4A6B-9044-D117488BA598}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_14" ID="{467543B6-95FF-4B6C-8DA5-10AEE371A75F}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{D6247445-69EF-4858-A790-8564D708DA38}" ShortID="307391772" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_14" ID="{61E65432-80E5-4E5B-8351-A59D90505199}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_15" ID="{ED22CFBF-FBB7-444C-B09A-ABB6D21B7A92}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{AF7248D3-F30E-4A44-8653-33BDF749F2FB}" ShortID="881528526" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_15" ID="{CD156AA9-EE6B-4EEC-BCDC-3DF181228621}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_16" ID="{8B18BBF7-B939-4DB9-94D8-720BC62756D3}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{257989D5-A673-499B-B3FF-4832A1ED8179}" ShortID="980599355" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_16" ID="{63A06C97-2451-4F87-B070-973F24C72EEF}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_17" ID="{8541780A-465A-4463-A838-EF7854212783}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{48D2D3B3-140E-4D16-A96E-9CD5AE7F73A5}" ShortID="270537971" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_17" ID="{6BD0FC30-60AF-467A-A90A-C9D3F5A0F18C}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_18" ID="{43FEAA67-39ED-4E00-84CB-F163F064DCA6}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{EA59B582-F1A8-4108-ADBF-ACB64B7699A1}" ShortID="918605348" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_18" ID="{5EEAF23F-E58C-46BB-9C29-EC37E2CDC4CD}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_19" ID="{4E188AEA-7277-497F-90D3-D8ADF21272F8}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{22DBFBA1-AE41-444B-8345-015795A6455D}" ShortID="327487566" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_19" ID="{519E8524-C64C-451E-90F3-04608BF6A4B5}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_20" ID="{5F18AE4D-2D78-48E6-884B-5166868D2071}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{E7516602-D9C3-4FE3-BF2F-D42377EFE4B3}" ShortID="194186205" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_20" ID="{5896FFB4-A835-4883-868D-823BB41A4CC0}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Trigger" ID="{453F9A08-7ED2-49D4-99BF-3446D37C904F}" ShortID="176939971" Type="Trigger" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A946D326-4CB7-46D8-8ABF-7D59045F6AD2}" Global="false">
+									<ObjectRef Name="Slide_20" ID="{2CADADF6-DE34-4796-BEC3-32F997FDB1D4}" WorkUnitID="{FEE980BC-1C59-4A6B-9044-D117488BA598}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_21" ID="{D0419B3D-6D42-4E68-99A5-69F1C6032C09}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{86D9C059-CBD5-4614-AFE2-85B8068ECA9E}" ShortID="243351366" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_21" ID="{7CC50F64-D609-48C4-8FA3-D3BDC15E66B4}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Slide_22" ID="{6BE1EC5B-210B-4B8E-B8FC-60274257B977}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{50828B34-7038-4A57-BE88-8F68BA36379E}" ShortID="432795106" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_22" ID="{4DD10B3E-F866-4DDB-BADD-4A5BE6B7CAF8}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TP6" ID="{804235BF-1376-4938-9FB9-2F24CE2D7A3D}">
+					<ChildrenList>
+						<Action Name="Post Event" ID="{04D79BF8-AF30-4282-8187-E7BF108851D2}" ShortID="452419058" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C24928C3-96E7-4BA3-880D-C2EAF65B0609}" Global="false">
+									<ObjectRef Name="Slide_01" ID="{F465EAE6-5F15-45CD-BE6C-E42D3D49D148}" WorkUnitID="{89EFD3C8-D111-41DC-B271-DE92730BB9B3}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TP_06" ID="{6483DDB6-FCC7-4B6C-8CC9-F3BCB74ACE84}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{93FE6B43-5773-4818-AD72-1AC91F65655E}" ShortID="1055958807" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}"/>
+								<GroupItem Name="TP_01" ID="{94743C91-1E2B-4448-ABF2-0240E9A01FA5}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{418D5B12-3BB4-4E41-B26A-D08436FCE691}" ShortID="348761683" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D6AF8C82-5E57-4813-8849-071F29360554}" Global="false">
+									<ObjectRef Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

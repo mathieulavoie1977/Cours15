@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="TP_final" ID="{5B7D5BF9-6F2D-4B33-9D14-64EEB1955C79}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TP_Final" ID="{C0CAED81-ED27-42DF-879A-27F3EB31CD29}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0D600E22-1C83-4B25-B589-C1A8BF1C3F9F}" ShortID="637118418" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{36241F51-C9FC-42E1-82E6-2A2AF5AC0BEE}" Global="false">
+									<ObjectRef Name="TP_Final" ID="{E3A7A2CC-AA0F-4D80-B74B-655E1E99D915}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{55205EFC-B02A-4404-B800-8BFA8C5D80C8}" ShortID="1054063294" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{34569045-BE6D-42A2-B469-B9F5A59AF8A9}" Global="false">
+									<ObjectRef Name="danger_01" ID="{4C1E4E66-3BF5-4CA6-8B35-4F559F6F8C18}" WorkUnitID="{E8ECC462-4A3F-4358-B9FB-25A55B4C8154}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{229BE08E-593C-4DBC-8F76-302467B343B3}" ShortID="1029386223" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F2273967-2FDD-404E-9B7F-327780C0A778}" Global="false">
+									<ObjectRef Name="Danger" ID="{B1F900E8-1527-4092-BCFD-097C92F076A2}" WorkUnitID="{07FD7875-6FD4-4636-B110-34BF3B558DFF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{B484404F-F26F-4D5C-96DB-0A73D9EE313C}" ShortID="833148514" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E02441AE-BA87-4D2B-BACB-06936B1AC6CA}" Global="false">
+									<ObjectRef Name="Slide5" ID="{F0B548F3-7CAD-43C5-8610-1C5E3965DBFD}" WorkUnitID="{18E1DB74-A3ED-4C1E-B294-CBC470EB091E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TP_01" ID="{2E0DD4F4-C89D-4B70-91FE-EAF028D650CF}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{2F079009-7838-40C2-8F5D-B47A6A2399CC}" ShortID="384193996" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}"/>
+								<GroupItem Name="TP_01" ID="{94743C91-1E2B-4448-ABF2-0240E9A01FA5}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{988CBB69-AA50-4DBC-AD81-10198A42AFF4}" ShortID="955920533" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{50355049-77E8-4ED6-9219-E571090D7156}" Global="false">
+									<ObjectRef Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{A6C749D0-43D2-4C5D-AD0B-2B66FE195778}" ShortID="223795633" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{ECDCB5D3-E768-47D4-83EC-7B0C36A9D4A1}" Global="false">
+									<ObjectRef Name="TP4" ID="{42126399-6340-4F79-BA2B-C7A450496293}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TP_02" ID="{CE09E328-E13B-419A-ABC3-A5343734DB75}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{208D9EEE-F205-4AFE-B625-E055F9F9E1CA}" ShortID="465257970" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}"/>
+								<GroupItem Name="TP_02" ID="{366A5DE9-3310-4628-AA6E-0CEFE32F78F4}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{779D76C9-D488-45E9-A328-41FE4DBAC20C}" ShortID="976705667" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B7F1BFF3-32E4-4C26-8559-013CBA8187F6}" Global="false">
+									<ObjectRef Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{A513BF36-9AB7-4D2B-8CEA-9EA85C8B5692}" ShortID="118664779" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D2A8112E-9BEE-4F8C-B046-9AC746F5A423}" Global="false">
+									<ObjectRef Name="TP4" ID="{42126399-6340-4F79-BA2B-C7A450496293}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{06646332-4650-4F12-BEF2-51A5C95A391C}" ShortID="624492508" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="tp" ID="{B8A19B11-F69A-4D58-B923-2FDC94AF43E3}"/>
+								<GroupItem Name="TP2A" ID="{241F9CDC-D600-4585-9C2F-720E8B95D3C5}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set State" ID="{ED594F87-61BE-4A75-9A6B-342AA86B6D60}" ShortID="1070958948" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="ENV" ID="{3BAC25EF-3ED9-42A6-B40D-3C540F0233CF}"/>
+								<GroupItem Name="Exploration" ID="{83CDBA2A-DB4D-4662-AE01-66ABC6BD8FD6}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{8D537250-E96D-476F-A585-4B0B0B07252D}" ShortID="1019155343" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4E12C780-8906-4DCA-85B1-94175EDF35F2}" Global="false">
+									<ObjectRef Name="Danger" ID="{B1F900E8-1527-4092-BCFD-097C92F076A2}" WorkUnitID="{07FD7875-6FD4-4636-B110-34BF3B558DFF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TP_03" ID="{A28F90BE-A255-452E-8115-95376DB8D76C}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{1DFE6E7E-F323-4367-A5E6-C3B8DBFDFBCD}" ShortID="372811813" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}"/>
+								<GroupItem Name="TP_03" ID="{A118998E-6CBC-461F-A103-AD24F7693FA0}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{58BE2BFE-ECF5-410E-BC4C-B32F77B02D93}" ShortID="121935678" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{AD86CC4A-B6A8-4578-9268-95A4E3A1CFD9}" Global="false">
+									<ObjectRef Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{35CCB5BD-9AAD-4F17-83CC-859A01442075}" ShortID="829137168" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{16B95280-6A41-490F-AECF-287D4F14AA2E}" Global="false">
+									<ObjectRef Name="TP4" ID="{42126399-6340-4F79-BA2B-C7A450496293}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{38614B83-6CA4-43EE-A868-899FB5153E9B}" ShortID="336742108" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Personnages" ID="{E140B2E6-07FD-471C-B5E6-EFD8AAE4E642}"/>
+								<GroupItem Name="Krel" ID="{E212A144-B55F-4621-A96C-4AC337C19697}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TP_04" ID="{3ECAA371-0996-472D-AF09-E6F48F53D20E}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{E5C3E080-BAE9-42E2-8EC3-349D002C15B1}" ShortID="288951539" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}"/>
+								<GroupItem Name="TP_04" ID="{BAE3FBFA-D0D2-4B27-8F45-676B2AC96CE4}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{AD17F44B-ECED-4A0B-947E-606CBDFED9F5}" ShortID="268570688" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B00C9319-1F69-4605-BD8A-C7C99A25B39F}" Global="false">
+									<ObjectRef Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Post Event" ID="{C197DE63-E8FC-4A67-B6EB-9E9267FAF111}" ShortID="552782599" Type="PlayEvent" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{39E132F0-79D5-4FC9-B222-5C5633E0C5B0}" Global="false">
+									<ObjectRef Name="Play" ID="{55D5FB99-552A-46FC-A25D-FE0CF129FFBD}" WorkUnitID="{EF184AA2-EFE5-43EB-B051-FFBC169984D6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{30378020-32D6-49E8-A1A1-C6FBEAC1BDF6}" ShortID="650596018" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F93AC039-02F4-4713-A956-24CDE07B0E82}" Global="false">
+									<ObjectRef Name="danger_01" ID="{4C1E4E66-3BF5-4CA6-8B35-4F559F6F8C18}" WorkUnitID="{E8ECC462-4A3F-4358-B9FB-25A55B4C8154}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TP_05" ID="{92389DEF-4D40-4C43-9CE9-41B5AB2D8811}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{5770027B-0492-4181-95B0-4E29B88D0090}" ShortID="114773992" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}"/>
+								<GroupItem Name="TP_05" ID="{4251AF42-F53A-4A16-8EDC-1B20FA787501}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{CB4859D1-1FD3-43F8-B6D2-4DD1AC811CF8}" ShortID="47752714" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{FA34CC45-F12C-4810-98DD-3E01341D6793}" Global="false">
+									<ObjectRef Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{70877BC3-4C08-4D81-A91E-714A8AFB8543}" ShortID="1061109678" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{DF3FA0A1-C61C-4C1F-A70F-3A676AAC6ADB}" Global="false">
+									<ObjectRef Name="TP4" ID="{42126399-6340-4F79-BA2B-C7A450496293}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TP06" ID="{D2FDA19B-5383-44E7-8889-E4AB43171126}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{872B4FBC-6EE0-428F-88D8-8BA00420F55C}" ShortID="362454711" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}"/>
+								<GroupItem Name="TP_06" ID="{89FB5C81-CE44-4AA4-BD35-E96F93462498}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Stop" ID="{D4861CDA-A95A-4CD8-9D6F-DDDA1F0F273D}" ShortID="904211021" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E679D0FF-647B-4D96-A839-75073A3903B9}" Global="false">
+									<ObjectRef Name="TP4 random" ID="{CF791F37-F8D4-4822-844A-89FFE9C96994}" WorkUnitID="{3B7D0338-2BBB-42EC-9A60-E0638F90D118}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{9DB0DDDB-2807-442F-AB76-59183C46463B}" ShortID="132569109" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{220E05E5-98F3-4F3E-9998-B8BE7605579B}" Global="false">
+									<ObjectRef Name="TP4" ID="{42126399-6340-4F79-BA2B-C7A450496293}" WorkUnitID="{11775CDC-833D-4D79-9613-F634BE577FE6}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{05328CCA-65FC-4E0A-818A-1F04AD0E12E6}" ShortID="975827643" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="TP06_Naheulbeuk" ID="{85089D5C-DC65-44EB-A970-91A0A6DD0747}"/>
+								<GroupItem Name="Slide_01" ID="{DFC8061F-335E-45AC-90F0-601F0C87EAC1}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set Game Parameter" ID="{4828C52F-0743-4610-B302-DC7E09CC01AF}" ShortID="303873285" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3F320CAA-EBD4-4FCA-9861-D010A527BA82}" Global="false">
+									<ObjectRef Name="Slide5" ID="{F0B548F3-7CAD-43C5-8610-1C5E3965DBFD}" WorkUnitID="{18E1DB74-A3ED-4C1E-B294-CBC470EB091E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

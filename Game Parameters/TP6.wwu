@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18E1DB74-A3ED-4C1E-B294-CBC470EB091E}" SchemaVersion="75">
+	<GameParameters>
+		<WorkUnit Name="TP6" ID="{18E1DB74-A3ED-4C1E-B294-CBC470EB091E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Slide5" ID="{F0B548F3-7CAD-43C5-8610-1C5E3965DBFD}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

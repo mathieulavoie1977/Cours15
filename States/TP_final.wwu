@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2041B95E-ED7A-4FE2-BBA8-949F8E9E46E9}" SchemaVersion="75">
+	<States>
+		<WorkUnit Name="TP_final" ID="{2041B95E-ED7A-4FE2-BBA8-949F8E9E46E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="TP_Final" ID="{304E97F1-505B-4391-86B2-12093BA0B3F6}">
+					<ChildrenList>
+						<State Name="None" ID="{C18FABE1-FF2D-4B8D-A2AA-181D6F504F99}"/>
+						<State Name="TP_01" ID="{94743C91-1E2B-4448-ABF2-0240E9A01FA5}"/>
+						<State Name="TP_02" ID="{366A5DE9-3310-4628-AA6E-0CEFE32F78F4}"/>
+						<State Name="TP_03" ID="{A118998E-6CBC-461F-A103-AD24F7693FA0}"/>
+						<State Name="TP_04" ID="{BAE3FBFA-D0D2-4B27-8F45-676B2AC96CE4}"/>
+						<State Name="TP_05" ID="{4251AF42-F53A-4A16-8EDC-1B20FA787501}"/>
+						<State Name="TP_06" ID="{89FB5C81-CE44-4AA4-BD35-E96F93462498}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
